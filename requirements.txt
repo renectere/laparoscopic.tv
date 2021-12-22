@@ -18,7 +18,7 @@ markdown
 django-filter
 
 filetype
-django-mptt
+django-mptt==0.13.4
 
 django-crispy-forms
 
