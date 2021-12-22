@@ -10,7 +10,7 @@ django-silk
 pre-commit
 pytest-cov
 pytest-django
-pytest-factoryboy
+pytest-factoryboy==2.1.0
 Faker
 selenium
 webdriver-manager
