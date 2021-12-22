@@ -15,7 +15,7 @@ Pillow==8.2.0
 django-imagekit
 
 markdown
-django-filter
+django-filter==21.1
 
 filetype
 django-mptt
