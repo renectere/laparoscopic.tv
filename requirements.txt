@@ -17,7 +17,7 @@ django-imagekit
 markdown
 django-filter
 
-filetype
+filetype==1.0.9
 django-mptt
 
 django-crispy-forms
