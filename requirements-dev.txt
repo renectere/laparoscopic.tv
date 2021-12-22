@@ -9,7 +9,7 @@ pep8
 django-silk
 pre-commit
 pytest-cov
-pytest-django
+pytest-django==4.5.2
 pytest-factoryboy
 Faker
 selenium
