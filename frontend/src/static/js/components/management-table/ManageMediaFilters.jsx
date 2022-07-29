@@ -108,14 +108,14 @@ export function ManageMediaFilters(props) {
     <div ref={containerRef} className={'mi-filters-row' + (isHidden ? ' hidden' : '')}>
       <div ref={innerContainerRef} className="mi-filters-row-inner">
         <div className="mi-filter">
-          <div className="mi-filter-title">STATE</div>
+          <div className="mi-filter-title">STATO</div>
           <div className="mi-filter-options">
             <FilterOptions id={'state'} options={filters.state} selected={state} onSelect={onFilterSelect} />
           </div>
         </div>
 
         <div className="mi-filter">
-          <div className="mi-filter-title">MEDIA TYPE</div>
+          <div className="mi-filter-title">TIPO DI SUPPORTO</div>
           <div className="mi-filter-options">
             <FilterOptions
               id={'media_type'}
@@ -127,7 +127,7 @@ export function ManageMediaFilters(props) {
         </div>
 
         <div className="mi-filter">
-          <div className="mi-filter-title">ENCODING STATUS</div>
+          <div className="mi-filter-title">STATO DI CODIFICA</div>
           <div className="mi-filter-options">
             <FilterOptions
               id={'encoding_status'}
@@ -139,14 +139,14 @@ export function ManageMediaFilters(props) {
         </div>
 
         <div className="mi-filter">
-          <div className="mi-filter-title">REVIEWED</div>
+          <div className="mi-filter-title">RIVISTO</div>
           <div className="mi-filter-options">
             <FilterOptions id={'reviewed'} options={filters.reviewed} selected={isReviewed} onSelect={onFilterSelect} />
           </div>
         </div>
 
         <div className="mi-filter">
-          <div className="mi-filter-title">FEATURED</div>
+          <div className="mi-filter-title">IN PRIMO PIANO</div>
           <div className="mi-filter-options">
             <FilterOptions id={'featured'} options={filters.featured} selected={isFeatured} onSelect={onFilterSelect} />
           </div>

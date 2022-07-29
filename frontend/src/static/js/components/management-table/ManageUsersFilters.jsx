@@ -55,7 +55,7 @@ export function ManageUsersFilters(props) {
     <div ref={containerRef} className={'mi-filters-row' + (isHidden ? ' hidden' : '')}>
       <div ref={innerContainerRef} className="mi-filters-row-inner">
         <div className="mi-filter">
-          <div className="mi-filter-title">ROLE</div>
+          <div className="mi-filter-title">RUOLO</div>
           <div className="mi-filter-options">
             <FilterOptions id={'role'} options={filters.role} selected={role} onSelect={onFilterSelect} />
           </div>

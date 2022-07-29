@@ -62,7 +62,7 @@ function headerPopupPages(user, popupNavItems, hasHeaderThemeSwitcher) {
                 <i className="material-icons">arrow_back</i>
               </CircleIconButton>
             </span>
-            <span>Switch theme</span>
+            <span>Cambia tema</span>
           </div>
         </PopupTop>
         <PopupMain>
@@ -114,7 +114,7 @@ function RegisterButton({ user, link, hasHeaderThemeSwitcher }) {
         }
         title="Register"
       >
-        Register
+        Registrati
       </a>
     </div>
   ) : null;

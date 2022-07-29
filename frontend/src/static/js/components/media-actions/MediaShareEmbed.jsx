@@ -142,7 +142,7 @@ export function MediaShareEmbed(props) {
         <div ref={onRightRef} className="on-right">
           <div ref={onRightTopRef} className="on-right-top">
             <div className="on-right-top-inner">
-              <span className="ttl">Embed Video</span>
+              <span className="ttl">Incorpora video</span>
               <CircleIconButton type="button" onClick={onClickEmbedShareExit}>
                 <MaterialIcon type="close" />
               </CircleIconButton>
@@ -169,7 +169,7 @@ export function MediaShareEmbed(props) {
             ></textarea>
 
             <div className="iframe-config">
-              <div className="iframe-config-options-title">Embed options</div>
+              <div className="iframe-config-options-title">Opzioni di incorporamento</div>
 
               <div className="iframe-config-option">
                 {/*<div className="option-title">
@@ -181,7 +181,7 @@ export function MediaShareEmbed(props) {
                     <div className="options-group">
                       <label style={{ minHeight: '36px' }}>
                         <input type="checkbox" checked={keepAspectRatio} onChange={onKeepAspectRatioChange} />
-                        Keep aspect ratio
+                        Mantenere proporzioni
                       </label>
                     </div>
 
@@ -236,7 +236,7 @@ export function MediaShareEmbed(props) {
           </div>
 
           <div ref={onRightBottomRef} className="on-right-bottom">
-            <button onClick={onClickCopyMediaLink}>COPY</button>
+            <button onClick={onClickCopyMediaLink}>COPIA</button>
           </div>
         </div>
       </div>

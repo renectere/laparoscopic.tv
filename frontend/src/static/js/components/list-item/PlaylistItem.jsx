@@ -44,7 +44,7 @@ export function PlaylistItem(props) {
             <div>
               <div>
                 <i className="material-icons">play_arrow</i>
-                <span>PLAY ALL</span>
+                <span>GIOCARE TUTTO</span>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ export function PlaylistItem(props) {
           {titleComponent()}
           {metaComponents()}
           <a href={props.link} title="" className="view-full-playlist">
-            VIEW FULL PLAYLIST
+            VISUALIZZA LA PLAYLIST COMPLETA
           </a>
         </UnderThumbWrapper>
       </div>

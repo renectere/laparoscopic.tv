@@ -112,22 +112,22 @@ function ManageItemCommentActions(props) {
   return (
     <div ref={props.containerRef} className="actions">
       <PopupTrigger contentRef={popupContentRef}>
-        <button title={'Delete "' + props.name + '"'}>Delete</button>
+        <button title={'Delete "' + props.name + '"'}>Elimina</button>
       </PopupTrigger>
 
       <PopupContent contentRef={popupContentRef} showCallback={onPopupShow} hideCallback={onPopupHide}>
         <PopupMain>
           <div className="popup-message">
-            <span className="popup-message-title">Member removal</span>
+            <span className="popup-message-title">Rimozione dei membri</span>
             <span className="popup-message-main">{'You\'re willing to remove member "' + props.name + '"'}?</span>
           </div>
           <hr />
           <span className="popup-message-bottom">
             <button className="button-link cancel-profile-removal" onClick={onCancel}>
-              CANCEL
+              ANNULLA
             </button>
             <button className="button-link proceed-profile-removal" onClick={onProceed}>
-              PROCEED
+              PROCEDERE
             </button>
           </span>
         </PopupMain>

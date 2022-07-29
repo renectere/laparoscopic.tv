@@ -39,7 +39,7 @@ export function MediaSaveButton(props) {
           <CircleIconButton type="span">
             <MaterialIcon type="playlist_add" />
           </CircleIconButton>
-          <span>SAVE</span>
+          <span>SALVA</span>
         </button>
       </PopupTrigger>
 
