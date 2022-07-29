@@ -38,10 +38,10 @@ export function AutoPlay(props) {
   return !media ? null : (
     <div className="auto-play">
       <div className="auto-play-header">
-        <div className="next-label">Up next</div>
+        <div className="next-label">Avanti il ​​prossimo</div>
         <div className="auto-play-option">
           <label className="checkbox-label right-selectbox" tabIndex={0} onKeyPress={onKeyPress}>
-            AUTOPLAY
+            RIPRODUZIONE AUTOMATICA
             <span className="checkbox-switcher-wrap">
               <span className="checkbox-switcher">
                 <input

@@ -118,11 +118,11 @@ class ChannelContactForm extends React.PureComponent {
     return (
       <div className="media-list-row profile-contact">
         <div className="media-list-header">
-          <h2>Contact</h2>
+          <h2>Contatto</h2>
         </div>
         <form method="post" className={'user-contact-form' + (this.state.isSending ? ' pending-response' : '')}>
           <span>
-            <label>Subject</label>
+            <label>Materia</label>
             <input
               ref="msgSubject"
               type="text"
@@ -132,7 +132,7 @@ class ChannelContactForm extends React.PureComponent {
             />
           </span>
           <span>
-            <label>Message</label>
+            <label>Messaggio</label>
             <textarea
               ref="msgBody"
               required={true}
@@ -142,7 +142,7 @@ class ChannelContactForm extends React.PureComponent {
               value={this.state.body}
             ></textarea>
           </span>
-          <button onClick={this.onSubmit}>SUBMIT</button>
+          <button onClick={this.onSubmit}>SOTTOSCRIVI</button>
         </form>
       </div>
     );

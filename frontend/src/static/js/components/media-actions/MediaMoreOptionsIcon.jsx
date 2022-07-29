@@ -173,22 +173,22 @@ function getPopupPages(userCan, mediaData, allowDownload, downloadLink, mediaRep
         <PopupMain>
           <ul className="media-status-info">
             <li>
-              Media type: <span>{mediaType}</span>
+              Tipo di supporto: <span>{mediaType}</span>
             </li>
             <li>
-              State: <span>{mediaState}</span>
+              Stato: <span>{mediaState}</span>
             </li>
             <li>
-              Review state: <span>{mediaIsReviewed ? 'Is reviewed' : 'Pending review'}</span>
+              Stato di revisione: <span>{mediaIsReviewed ? 'Is reviewed' : 'Pending review'}</span>
             </li>
             {mediaIsVideo ? (
               <li>
-                Encoding Status: <span>{mediaEncodingStatus}</span>
+                Stato di codifica: <span>{mediaEncodingStatus}</span>
               </li>
             ) : null}
             {mediaReportedTimes ? (
               <li className="reports">
-                Reports: <span>{mediaReportedTimes}</span>
+                Rapporti: <span>{mediaReportedTimes}</span>
               </li>
             ) : null}
           </ul>

@@ -83,7 +83,7 @@ export function SearchResultsFilters(props) {
     <div ref={containerRef} className={'mi-filters-row' + (isHidden ? ' hidden' : '')}>
       <div ref={innerContainerRef} className="mi-filters-row-inner">
         <div className="mi-filter">
-          <div className="mi-filter-title">MEDIA TYPE</div>
+          <div className="mi-filter-title">TIPO DI SUPPORTO</div>
           <div className="mi-filter-options">
             <FilterOptions
               id={'media_type'}
@@ -95,7 +95,7 @@ export function SearchResultsFilters(props) {
         </div>
 
         <div className="mi-filter">
-          <div className="mi-filter-title">UPLOAD DATE</div>
+          <div className="mi-filter-title">DATA DI CARICAMENTO</div>
           <div className="mi-filter-options">
             <FilterOptions
               id={'upload_date'}
@@ -107,7 +107,7 @@ export function SearchResultsFilters(props) {
         </div>
 
         <div className="mi-filter">
-          <div className="mi-filter-title">SORT BY</div>
+          <div className="mi-filter-title">ORDINA PER</div>
           <div className="mi-filter-options">
             <FilterOptions id={'sort_by'} options={filters.sort_by} selected={sortByFilter} onSelect={onFilterSelect} />
           </div>

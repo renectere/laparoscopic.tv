@@ -16,7 +16,7 @@ export function ManageUsersItemHeader(props) {
         onClick={sortByColumn}
         className={'mi-name mi-col-sort' + ('name' === sort ? ('asc' === order ? ' asc' : ' desc') : '')}
       >
-        Name
+        Nome
         <div className="mi-col-sort-icons">
           <span>
             <MaterialIcon type="arrow_drop_up" />
@@ -26,13 +26,13 @@ export function ManageUsersItemHeader(props) {
           </span>
         </div>
       </div>
-      <div className="mi-username">Username</div>
+      <div className="mi-username">Nome utente</div>
       <div
         id="add_date"
         onClick={sortByColumn}
         className={'mi-added mi-col-sort' + ('add_date' === sort ? ('asc' === order ? ' asc' : ' desc') : '')}
       >
-        Date added
+        Data aggiunta
         <div className="mi-col-sort-icons">
           <span>
             <MaterialIcon type="arrow_drop_up" />
@@ -42,10 +42,10 @@ export function ManageUsersItemHeader(props) {
           </span>
         </div>
       </div>
-      {props.has_roles ? <div className="mi-role">Role</div> : null}
-      {props.has_verified ? <div className="mi-verified">Verified</div> : null}
-      {props.has_trusted ? <div className="mi-trusted">Trusted</div> : null}
-      <div className="mi-featured">Featured</div>
+      {props.has_roles ? <div className="mi-role">Ruolo</div> : null}
+      {props.has_verified ? <div className="mi-verified">Verificato</div> : null}
+      {props.has_trusted ? <div className="mi-trusted">Fidato</div> : null}
+      <div className="mi-featured">In primo piano</div>
     </div>
   );
 }

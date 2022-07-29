@@ -27,7 +27,7 @@ export function HeaderThemeSwitcher() {
 
   return (
     <div className="theme-switch" tabIndex={0} onKeyPress={onKeyPress} onClick={onClick}>
-      <span>Dark Theme</span>
+      <span>Tema scuro</span>
       <span>
         <label className="checkbox-label right-selectbox">
           <span className="checkbox-switcher-wrap">

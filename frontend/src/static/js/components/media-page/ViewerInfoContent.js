@@ -48,7 +48,7 @@ function MediaAuthorBanner(props) {
           </a>
         </span>
         {PageStore.get('config-media-item').displayPublishDate && props.published ? (
-          <span className="author-banner-date">Published on {publishedOnDate(new Date(props.published))}</span>
+          <span className="author-banner-date">pubblicato su {publishedOnDate(new Date(props.published))}</span>
         ) : null}
       </div>
     </div>
@@ -77,7 +77,7 @@ function EditMediaButton(props) {
 
   return (
     <a href={link} rel="nofollow" title="Edit media" className="edit-media">
-      EDIT MEDIA
+      MODIFICA MEDIA
     </a>
   );
 }
@@ -91,7 +91,7 @@ function EditSubtitleButton(props) {
 
   return (
     <a href={link} rel="nofollow" title="Edit subtitle" className="edit-subtitle">
-      EDIT SUBTITLE
+      MODIFICA SOTTOTITOLO
     </a>
   );
 }
@@ -215,22 +215,22 @@ export default function ViewerInfoContent(props) {
               ) : null}
 
               <PopupTrigger contentRef={popupContentRef}>
-                <button className="remove-media">DELETE MEDIA</button>
+                <button className="remove-media">ELIMINA MEDIA</button>
               </PopupTrigger>
 
               <PopupContent contentRef={popupContentRef}>
                 <PopupMain>
                   <div className="popup-message">
-                    <span className="popup-message-title">Media removal</span>
-                    <span className="popup-message-main">You're willing to remove media permanently?</span>
+                    <span className="popup-message-title">Rimozione dei media</span>
+                    <span className="popup-message-main">Sei disposto a rimuovere i file multimediali in modo permanente?</span>
                   </div>
                   <hr />
                   <span className="popup-message-bottom">
                     <button className="button-link cancel-comment-removal" onClick={cancelMediaRemoval}>
-                      CANCEL
+                      ANNULLA
                     </button>
                     <button className="button-link proceed-comment-removal" onClick={proceedMediaRemoval}>
-                      PROCEED
+                      PROCEDERE
                     </button>
                   </span>
                 </PopupMain>

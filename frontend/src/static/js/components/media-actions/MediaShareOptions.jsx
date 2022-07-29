@@ -109,7 +109,7 @@ function ShareOptions() {
               <span>
                 <i className="material-icons">code</i>
               </span>
-              <span>Embed</span>
+              <span>Incorporare</span>
             </button>
           </div>
         );
@@ -299,7 +299,7 @@ export function MediaShareOptions(props) {
         className="scrollable-content"
         style={null !== dimensions.maxFormContentHeight ? { maxHeight: dimensions.maxFormContentHeight + 'px' } : null}
       >
-        <div className="share-popup-title">Share media</div>
+        <div className="share-popup-title">Condividi media</div>
         {shareOptions.length ? (
           <div className="share-options">
             {sliderButtonsVisible.prev ? <PreviousSlideButton onClick={prevSlide} /> : null}
@@ -313,7 +313,7 @@ export function MediaShareOptions(props) {
       <div className="copy-field">
         <div>
           <input type="text" readOnly value={shareMediaLink} />
-          <button onClick={onClickCopyMediaLink}>COPY</button>
+          <button onClick={onClickCopyMediaLink}>COPIA</button>
         </div>
       </div>
       <div className="start-at">
@@ -325,7 +325,7 @@ export function MediaShareOptions(props) {
               checked={startAtSelected} 
               onChange={updateStartAtCheckbox}
             />
-            Start at {formattedTimestamp}
+            Iniziare a {formattedTimestamp}
           </label>
         </div>
     </div>

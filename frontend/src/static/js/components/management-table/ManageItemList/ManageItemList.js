@@ -102,7 +102,7 @@ function useManageItemListSync(props) {
 
     return 1 > listHandler.totalPages() || listHandler.loadedAllItems() ? null : (
       <button className="load-more" onClick={onClickLoadMore}>
-        SHOW MORE
+        MOSTRA DI PIÙ
       </button>
     );
   }
@@ -189,29 +189,29 @@ function BulkActions(props) {
   return (
     <div className="manage-items-bulk-action">
       <select value={selectedBulkAction} onChange={onBulkActionSelect}>
-        <option value="">Bulk actions</option>
-        <option value="delete">Delete selected</option>
+        <option value="">Azione in bloccos</option>
+        <option value="delete">Elimina selezionato</option>
       </select>
 
       {!selectedItemsSize || !selectedBulkAction ? null : (
         <PopupTrigger contentRef={popupContentRef}>
-          <button>Apply</button>
+          <button>Applicare</button>
         </PopupTrigger>
       )}
 
       <PopupContent contentRef={popupContentRef}>
         <PopupMain>
           <div className="popup-message">
-            <span className="popup-message-title">Bulk removal</span>
-            <span className="popup-message-main">You're willing to remove selected items permanently?</span>
+            <span className="popup-message-title">Rimozione in blocco</span>
+            <span className="popup-message-main">Sei disposto a rimuovere gli elementi selezionati in modo permanente?</span>
           </div>
           <hr />
           <span className="popup-message-bottom">
             <button className="button-link cancel-profile-removal" onClick={onClickCancel}>
-              CANCEL
+              ANNULLA
             </button>
             <button className="button-link proceed-profile-removal" onClick={onClickProceed}>
-              PROCEED
+              PROCEDERE
             </button>
           </span>
         </PopupMain>

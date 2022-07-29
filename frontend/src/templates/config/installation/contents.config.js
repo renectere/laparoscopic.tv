@@ -29,10 +29,10 @@ module.exports = {
   },
   notifications: {
     messages: {
-      addToLiked: 'Added to liked media',
-      removeFromLiked: 'Removed from liked media',
-      addToDisliked: 'Added to disliked media',
-      removeFromDisliked: 'Removed from disliked media',
+      addToLiked: 'Aggiunto ai media piaciuti',
+      removeFromLiked: 'Rimosso dai media preferiti',
+      addToDisliked: 'Aggiunto ai media non mi piace',
+      removeFromDisliked: 'Rimosso dai media non mi piace',
     },
   },
 };

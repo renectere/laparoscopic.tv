@@ -375,7 +375,7 @@ function AddBannerButton(props) {
   }
   return (
     <a href={link} className="edit-channel" title="Add banner">
-      ADD BANNER
+      AGGIUNGI BANDIERA
     </a>
   );
 }
@@ -388,7 +388,7 @@ function EditBannerButton(props) {
   }
   return (
     <a href={link} className="edit-channel" title="Edit banner">
-      EDIT BANNER
+      MODIFICA BANDIERA
     </a>
   );
 }
@@ -402,7 +402,7 @@ function EditProfileButton(props) {
 
   return (
     <a href={link} className="edit-profile" title="Edit profile">
-      EDIT PROFILE
+      MODIFICA PROFILO
     </a>
   );
 }
@@ -531,23 +531,23 @@ export default function ProfilePagesHeader(props) {
           <span className="delete-profile-wrap">
             <PopupTrigger contentRef={popupContentRef}>
               <button className="delete-profile" title="">
-                REMOVE PROFILE
+              RIMUOVERE IL PROFILO
               </button>
             </PopupTrigger>
 
             <PopupContent contentRef={popupContentRef}>
               <PopupMain>
                 <div className="popup-message">
-                  <span className="popup-message-title">Profile removal</span>
-                  <span className="popup-message-main">You're willing to remove profile permanently?</span>
+                  <span className="popup-message-title">Rimozione del profilo</span>
+                  <span className="popup-message-main">Sei disposto a rimuovere il profilo in modo permanente?</span>
                 </div>
                 <hr />
                 <span className="popup-message-bottom">
                   <button className="button-link cancel-profile-removal" onClick={cancelProfileRemoval}>
-                    CANCEL
+                    ANNULLA
                   </button>
                   <button className="button-link proceed-profile-removal" onClick={proceedMediaRemoval}>
-                    PROCEED
+                    PROCEDERE
                   </button>
                 </span>
               </PopupMain>

@@ -28,16 +28,16 @@ function mediaPlaylistPopupPages(proceedRemoval, cancelRemoval) {
     proceedMediaPlaylistRemoval: (
       <PopupMain>
         <div className="popup-message">
-          <span className="popup-message-title">Media playlist removal</span>
-          <span className="popup-message-main">You're willing to remove media from playlist permanently?</span>
+          <span className="popup-message-title">Rimozione della playlist multimediale</span>
+          <span className="popup-message-main">Sei disposto a rimuovere i file multimediali dalla playlist in modo permanente?</span>
         </div>
         <hr />
         <span className="popup-message-bottom">
           <button className="button-link cancel-playlist-removal" onClick={cancelRemoval}>
-            CANCEL
+            ANNULLA
           </button>
           <button className="button-link proceed-playlist-removal" onClick={proceedRemoval}>
-            PROCEED
+            PROCEDERE
           </button>
         </span>
       </PopupMain>

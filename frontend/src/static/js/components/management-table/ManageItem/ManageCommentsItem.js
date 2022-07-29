@@ -112,16 +112,16 @@ function ManageItemCommentActions(props) {
       <PopupContent contentRef={popupContentRef} showCallback={onPopupShow} hideCallback={onPopupHide}>
         <PopupMain>
           <div className="popup-message">
-            <span className="popup-message-title">Comment removal</span>
-            <span className="popup-message-main">You're willing to remove comment?</span>
+            <span className="popup-message-title">Rimozione commenti</span>
+            <span className="popup-message-main">Sei disposto a rimuovere il commento?</span>
           </div>
           <hr />
           <span className="popup-message-bottom">
             <button className="button-link cancel-profile-removal" onClick={onCancel}>
-              CANCEL
+              ANNULLA
             </button>
             <button className="button-link proceed-profile-removal" onClick={onProceed}>
-              PROCEED
+              PROCEDERE
             </button>
           </span>
         </PopupMain>

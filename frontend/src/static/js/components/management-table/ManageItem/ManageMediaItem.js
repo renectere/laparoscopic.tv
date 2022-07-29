@@ -128,13 +128,13 @@ function ManageItemMediaActions(props) {
   return (
     <div ref={props.containerRef} className="actions">
       <PopupTrigger contentRef={popupContentRef}>
-        <button title={'Delete' + (void 0 !== props.title ? ' "' + props.title + '"' : '')}>Delete</button>
+        <button title={'Delete' + (void 0 !== props.title ? ' "' + props.title + '"' : '')}>Elimina</button>
       </PopupTrigger>
 
       <PopupContent contentRef={popupContentRef} showCallback={onPopupShow} hideCallback={onPopupHide}>
         <PopupMain>
           <div className="popup-message">
-            <span className="popup-message-title">Media removal</span>
+            <span className="popup-message-title">Rimozione dei media</span>
             <span className="popup-message-main">
               {"You're willing to remove media" + (void 0 !== props.title ? ' "' + props.title + '"' : '')}?
             </span>
@@ -142,10 +142,10 @@ function ManageItemMediaActions(props) {
           <hr />
           <span className="popup-message-bottom">
             <button className="button-link cancel-profile-removal" onClick={onCancel}>
-              CANCEL
+              ANNULLA
             </button>
             <button className="button-link proceed-profile-removal" onClick={onProceed}>
-              PROCEED
+              PROCEDERE
             </button>
           </span>
         </PopupMain>
