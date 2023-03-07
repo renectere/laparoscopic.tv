@@ -16,7 +16,7 @@ export function ManageMediaItemHeader(props) {
         onClick={sortByColumn}
         className={'mi-title mi-col-sort' + ('title' === sort ? ('asc' === order ? ' asc' : ' desc') : '')}
       >
-        Title
+        Titolo
         <div className="mi-col-sort-icons">
           <span>
             <MaterialIcon type="arrow_drop_up" />
@@ -31,7 +31,7 @@ export function ManageMediaItemHeader(props) {
         onClick={sortByColumn}
         className={'mi-added mi-col-sort' + ('add_date' === sort ? ('asc' === order ? ' asc' : ' desc') : '')}
       >
-        Date added
+        Data aggiunta
         <div className="mi-col-sort-icons">
           <span>
             <MaterialIcon type="arrow_drop_up" />
@@ -41,13 +41,13 @@ export function ManageMediaItemHeader(props) {
           </span>
         </div>
       </div>
-      <div className="mi-author">Author</div>
-      <div className="mi-type">Media type</div>
-      <div className="mi-encoding">Encoding status</div>
-      <div className="mi-state">State</div>
-      <div className="mi-reviewed">Reviewed</div>
-      <div className="mi-featured">Featured</div>
-      <div className="mi-reported">Reported</div>
+      <div className="mi-author">Autrice</div>
+      <div className="mi-type">Tipo di supporto</div>
+      <div className="mi-encoding">Stato di codifica</div>
+      <div className="mi-state">Stato</div>
+      <div className="mi-reviewed">Rivisto</div>
+      <div className="mi-featured">In primo piano</div>
+      <div className="mi-reported">Segnalato</div>
     </div>
   );
 }

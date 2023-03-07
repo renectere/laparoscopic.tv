@@ -156,7 +156,7 @@ export function PlaylistsSelection(props) {
   return (
     <div ref={containerRef} className="saveto-popup">
       <div className="saveto-title">
-        Save to...
+        Salvare...
         <CircleIconButton type="button" onClick={onClickExit}>
           <MaterialIcon type="close" />
         </CircleIconButton>
@@ -173,7 +173,7 @@ export function PlaylistsSelection(props) {
       ) : (
         <CircleIconButton className="saveto-create" type="button" onClick={togglePlaylistCreationForm}>
           <MaterialIcon type="add" />
-          Create a new playlist
+          Crea una nuova playlist
         </CircleIconButton>
       )}
     </div>

@@ -129,7 +129,7 @@ export function PlaylistCreationForm(props) {
   return (
     <div className="playlist-form-wrap">
       <div className="playlist-form-field playlist-title" ref={nameRef}>
-        <span className="playlist-form-label">Title</span>
+        <span className="playlist-form-label">Titolo</span>
         <input
           ref={nameInputRef}
           type="text"
@@ -143,7 +143,7 @@ export function PlaylistCreationForm(props) {
       </div>
 
       <div className="playlist-form-field playlist-description" ref={descriptionRef}>
-        <span className="playlist-form-label">Description</span>
+        <span className="playlist-form-label">Descrizione</span>
         <textarea
           ref={descriptionInputRef}
           rows="1"
@@ -164,7 +164,7 @@ export function PlaylistCreationForm(props) {
 
       <div className="playlist-form-actions">
         <button className="cancel-btn" onClick={onCancelPlaylistCreation}>
-          CANCEL
+          ANNULLA
         </button>
         <button className="create-btn" onClick={onClickPlaylistCreate}>
           {id ? 'UPDATE' : 'CREATE'}

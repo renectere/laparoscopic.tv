@@ -43,22 +43,22 @@ export function ReportForm(props) {
         className="report-form"
         style={null !== maxFormContentHeight ? { maxHeight: maxFormContentHeight + 'px' } : null}
       >
-        <div className="form-title">Report media</div>
+        <div className="form-title">Segnala i media</div>
         <div className="form-field">
           <span className="label">URL</span>
           <input type="text" readOnly value={props.mediaUrl} />
         </div>
         <div className="form-field">
-          <span className="label">Description</span>
+          <span className="label">Descrizione</span>
           <textarea ref={reportMessageTextRef} required></textarea>
         </div>
-        <div className="form-field form-help-text">Reported media is reviewed</div>
+        <div className="form-field form-help-text">I media segnalati vengono esaminati</div>
       </div>
       <div ref={formActionsBottomRef} className="form-actions-bottom">
         <button className="cancel" onClick={cancelReportForm}>
-          CANCEL
+          ANNULLA
         </button>
-        <button onClick={submitReportForm}>SUBMIT</button>
+        <button onClick={submitReportForm}>SOTTOSCRIVI</button>
       </div>
     </form>
   );

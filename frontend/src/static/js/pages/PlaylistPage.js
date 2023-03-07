@@ -84,7 +84,7 @@ function PlaylistThumb(props) {
             <span>
               <span>
                 <i className="material-icons">play_arrow</i>
-                <span className="play-all-label">PLAY ALL</span>
+                <span className="play-all-label">GIOCARE TUTTO</span>
               </span>
             </span>
           </span>
@@ -140,16 +140,16 @@ function playlistOptionsPopupPages(proceedPlaylistRemoval, cancelPlaylistRemoval
     proceedPlaylistRemovalPopup: (
       <PopupMain>
         <div className="popup-message">
-          <span className="popup-message-title">Playlist removal</span>
-          <span className="popup-message-main">You're willing to remove playlist permanently?</span>
+          <span className="popup-message-title">Rimozione playlist</span>
+          <span className="popup-message-main">Sei disposto a rimuovere la playlist in modo permanente?</span>
         </div>
         <hr />
         <span className="popup-message-bottom">
           <button className="button-link cancel-playlist-removal" onClick={cancelPlaylistRemoval}>
-            CANCEL
+            ANNULLA
           </button>
           <button className="button-link proceed-playlist-removal" onClick={proceedPlaylistRemoval}>
-            PROCEED
+            PROCEDERE
           </button>
         </span>
       </PopupMain>
@@ -255,7 +255,7 @@ function PlaylistEdit(props) {
       <PopupTrigger contentRef={popupContentRef}>
         <CircleIconButton>
           <MaterialIcon type="edit" />
-          <span>EDIT</span>
+          <span>MODIFICARE</span>
         </CircleIconButton>
       </PopupTrigger>
 
@@ -265,7 +265,7 @@ function PlaylistEdit(props) {
             <span className="popup-fullscreen-overlay"></span>
             <div className="edit-playlist-form-wrap">
               <div className="edit-playlist-popup-title">
-                Edit playlist
+                Modifica playlist
                 <CircleIconButton type="button" onClick={onClickExit}>
                   <MaterialIcon type="close" />
                 </CircleIconButton>

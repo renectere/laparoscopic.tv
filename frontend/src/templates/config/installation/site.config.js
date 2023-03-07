@@ -22,32 +22,32 @@ module.exports = {
   },
   pages: {
     latest: {
-      title: 'Recent uploads',
+      title: 'Caricamenti recentiCaricamenti recenti',
     },
     featured: {
-      title: 'Featured',
+      title: 'In primo piano',
     },
     recommended: {
-      title: 'Recommended',
+      title: 'Consigliata',
     },
     members: {
-      title: 'Members',
+      title: 'Membri',
     },
   },
   userPages: {
     liked: {
-      title: 'Liked media',
+      title: 'I media sono piaciuti',
     },
     history: {
-      title: 'History',
+      title: 'Storia',
     },
   },
   taxonomies: {
     tags: {
-      title: 'Tags',
+      title: 'Tag',
     },
     categories: {
-      title: 'Categories',
+      title: 'Categorie',
     },
   },
 };

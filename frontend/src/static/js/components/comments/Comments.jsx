@@ -243,16 +243,16 @@ function CommentActions(props) {
           <PopupContent contentRef={popupContentRef}>
             <PopupMain>
               <div className="popup-message">
-                <span className="popup-message-title">{commentsText.ucfirstSingle} removal</span>
-                <span className="popup-message-main">You're willing to remove {commentsText.single} permanently?</span>
+                <span className="popup-message-title">{commentsText.ucfirstSingle} rimozione</span>
+                <span className="popup-message-main">Sei disposto a rimuovere {commentsText.single} permanentemente?</span>
               </div>
               <hr />
               <span className="popup-message-bottom">
                 <button className="button-link cancel-comment-removal" onClick={cancelCommentRemoval}>
-                  CANCEL
+                  ANNULLA
                 </button>
                 <button className="button-link proceed-comment-removal" onClick={proceedCommentRemoval}>
-                  PROCEED
+                  PROCEDERE
                 </button>
               </span>
             </PopupMain>
